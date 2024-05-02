@@ -1,0 +1,11 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "nodemon C:\\BookStore\\rest-api\\index.js",
+    "start:frontend": "cd C:\\BookStore\\bookshop && ng s -o"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
